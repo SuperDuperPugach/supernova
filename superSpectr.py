@@ -3,10 +3,10 @@ import numpy
 #CONSTANTS
 Dist             = 3.0856776*10**22 #cm
 Enu_total        =6.2415096516*10**5 * 3.*10**53 /6. #MeV
-Enu_average      = 15 #MeV
+Enu_average      = 12. #MeV
 Delt             = 939.565378 - 938.272046 #MeV
 Me               = 0.510999 #MeV
-Nprotons         = 10**31 #numbers of proton's tagerts
+Nprotons         = 9*10**31 #numbers of proton's tagerts
 
 
 class SuperSpectr :
